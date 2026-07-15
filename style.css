@@ -1,25 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4fff4;
-  color: #222;
-  text-align: center;
-  margin: 0;
-  padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+    color: #1a237e;
+    padding: 20px;
+    min-height: 100vh;
 }
 
 h1 {
-  color: green;
+    text-align: center;
+    font-size: 2.8em;
+    color: #0d47a1;
+    margin: 30px 0 10px 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+.subtitle {
+    text-align: center;
+    font-size: 1.2em;
+    color: #37474f;
+    margin-bottom: 10px;
 }
 
-li {
-  background: #e8f5e9;
-  margin: 8px auto;
-  padding: 10px;
-  max-width: 300px;
-  border-radius: 8px;
+.grades-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.grade-card {
+    background: white;
+    border-radius: 15px;
+    padding: 25px 15px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    color: #0d47a1;
+    font-size: 1.3em;
+    font-weight: bold;
+    border: 2px solid #4fc3f7;
+}
+
+.grade-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+    background: #e3f2fd;
+    border-color: #0d47a1;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #546e7a;
+    font-size: 0.9em;
+    border-top: 2px solid #4fc3f7;
+    padding-top: 20px;
 }
