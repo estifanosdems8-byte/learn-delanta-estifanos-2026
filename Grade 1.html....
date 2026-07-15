@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ክፍል 1 - Learn Delanta Estifanos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>📖 ክፍል 1</h1>
+    <p class="subtitle">የክፍል 1 ትምህርቶች እዚህ ይገኛሉ</p>
+    <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin:20px 0;">
+        <a href="index.html" style="background:#0d47a1; color:white; padding:12px 25px; border-radius:10px; text-decoration:none;">🔙 መነሻ</a>
+        <a href="#videos" style="background:#0d47a1; color:white; padding:12px 25px; border-radius:10px; text-decoration:none;">📹 ቪዲዮ</a>
+        <a href="#exam" style="background:#0d47a1; color:white; padding:12px 25px; border-radius:10px; text-decoration:none;">📝 ፈተና</a>
+    </div>
+    <div id="videos" style="max-width:900px; margin:20px auto; padding:20px; background:white; border-radius:15px; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
+        <h2 style="text-align:center; color:#0d47a1;">🎥 የክፍል 1 ቪዲዮዎች</h2>
+        <div style="margin:15px 0; padding:15px; background:#f5f5f5; border-radius:10px;"><h3>📺 ትምህርት 1.1 - መግቢያ</h3><p style="color:#666;">የክፍል 1 መጀመሪያ ትምህርት</p></div>
+        <div style="margin:15px 0; padding:15px; background:#f5f5f5; border-radius:10px;"><h3>📺 ትምህርት 1.2 - ሁለተኛ ትምህርት</h3><p style="color:#666;">የክፍል 1 ሁለተኛ ትምህርት</p></div>
+    </div>
+    <div id="exam" style="max-width:900px; margin:20px auto; padding:20px; background:white; border-radius:15px; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
+        <h2 style="text-align:center; color:#0d47a1;">📝 የክፍል 1 ፈተና</h2>
+        <p style="text-align:center; color:#546e7a;">በቅርቡ ይጨመራል...</p>
+    </div>
+    <footer style="text-align:center; margin-top:30px; color:#546e7a; border-top:2px solid #4fc3f7; padding-top:20px;">© 2026 Learn Delanta Estifanos</footer>
+</body>
+</html>
